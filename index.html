@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Project</title>
+</head>
+
+<body>
+
+    <h1>Get MP3 MetaData</h1>
+
+    <form action="#" id="form">
+        <div class="upload-group">
+            <input type="file" id="file">
+            <input id="fileNameInp" type="text" placeholder="Browse" disabled>
+            <label class="upload-btn" for="file">
+                <span>Upload File</span>
+            </label>
+        </div>
+
+        <input type="submit" id="submit">
+    </form>
+
+    <h3 id="title"></h3>
+    <img id="image" width="300" height="300">
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

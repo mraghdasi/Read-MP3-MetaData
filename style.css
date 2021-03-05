@@ -1,0 +1,22 @@
+.upload-group input[type="file"] {
+    display: none
+}
+
+.upload-group .upload-btn span,
+#submit {
+    border: none;
+    border-radius: 5px;
+    line-height: 34px;
+    display: inline-block;
+    height: 34px;
+    padding: 0 10px;
+    margin: 10px 0;
+    background: #980e3c;
+    color: #fff
+}
+
+.upload-group #fileNameInp {
+    width: 330px;
+    height: 28px;
+    padding: 0 10px
+}
